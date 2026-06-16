@@ -64,7 +64,14 @@ Recommended (but not highly recommended) option for fastest possible approximate
 
 psicov -a -r 0.001 -i 62 demo.aln > output
 
+Output File format
+==================
 
+File is a 5 column space delimited csv file. Relevant columns are
+
+Col 1 Residue position a
+Col 2 Residue position b
+Col 5 Covariance (0.0-1.0)
 
 Example using HHBLITS
 =====================
